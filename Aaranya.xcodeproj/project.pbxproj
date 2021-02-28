@@ -1,0 +1,1032 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D132E2A43110B622D1CAC84 /* Pods_Aaranya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96EA808BECE1F482BF5F2E11 /* Pods_Aaranya.framework */; };
+		F6064C9A25CB0689000D0880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6064C9925CB0689000D0880 /* AppDelegate.swift */; };
+		F6064C9C25CB0689000D0880 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6064C9B25CB0689000D0880 /* SceneDelegate.swift */; };
+		F6064C9E25CB0689000D0880 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6064C9D25CB0689000D0880 /* LoginViewController.swift */; };
+		F6064CA125CB0689000D0880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6064C9F25CB0689000D0880 /* Main.storyboard */; };
+		F6064CA325CB0690000D0880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6064CA225CB0690000D0880 /* Assets.xcassets */; };
+		F6064CA625CB0690000D0880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6064CA425CB0690000D0880 /* LaunchScreen.storyboard */; };
+		F61BE4F125D1BA040024ECEE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61BE4F025D1BA040024ECEE /* HomeViewModel.swift */; };
+		F634358E25D3B89D0037BC71 /* SevicePaginationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634358D25D3B89D0037BC71 /* SevicePaginationCollectionViewCell.swift */; };
+		F634359225D3DD070037BC71 /* AppointmentDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634359125D3DD070037BC71 /* AppointmentDetailTableViewCell.swift */; };
+		F634359525D3F9B40037BC71 /* EnrollSuccessPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634359425D3F9B30037BC71 /* EnrollSuccessPopUpViewController.swift */; };
+		F638069A25D0F50A006EC661 /* HappyFaceViewAllCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F638069925D0F50A006EC661 /* HappyFaceViewAllCollectionViewCell.swift */; };
+		F63FF17925CFF09E009CF754 /* KnowHealerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63FF17825CFF09E009CF754 /* KnowHealerViewController.swift */; };
+		F63FF17D25CFF0C5009CF754 /* KnowHealerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63FF17C25CFF0C5009CF754 /* KnowHealerCollectionViewCell.swift */; };
+		F63FF18125D01D46009CF754 /* AvailableSchedualCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63FF18025D01D46009CF754 /* AvailableSchedualCollectionViewCell.swift */; };
+		F63FF18425D04279009CF754 /* HappyFaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63FF18325D04278009CF754 /* HappyFaceCollectionViewCell.swift */; };
+		F645FE3925CBF23200B67117 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F645FE3825CBF23200B67117 /* ProfileViewController.swift */; };
+		F645FE3D25CBFEDF00B67117 /* BookAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F645FE3C25CBFEDF00B67117 /* BookAppointmentViewController.swift */; };
+		F645FE4125CC015400B67117 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F645FE4025CC015400B67117 /* HomeViewController.swift */; };
+		F645FEB525CCEF5600B67117 /* ServerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F645FEB425CCEF5600B67117 /* ServerClass.swift */; };
+		F645FED925CCF5CF00B67117 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F645FED825CCF5CF00B67117 /* Constant.swift */; };
+		F645FEDC25CCF78400B67117 /* Extension+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F645FEDB25CCF78300B67117 /* Extension+Validation.swift */; };
+		F645FEDF25CCF7F100B67117 /* Extension+OKAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F645FEDE25CCF7F100B67117 /* Extension+OKAlert.swift */; };
+		F645FEE225CCF8F200B67117 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F645FEE125CCF8F200B67117 /* Internet.swift */; };
+		F64CC92225D1080200ADBF87 /* OnboardScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64CC92125D1080200ADBF87 /* OnboardScreenViewController.swift */; };
+		F64CC92D25D15CB400ADBF87 /* ServiceResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64CC92C25D15CB400ADBF87 /* ServiceResponseModel.swift */; };
+		F651DA1625D50FA3008742CA /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F651DA1525D50FA3008742CA /* ScheduleViewModel.swift */; };
+		F651DA1A25D575C0008742CA /* nature.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F651DA1925D575BF008742CA /* nature.mp4 */; };
+		F651DA2425D5A475008742CA /* EnrollmentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F651DA2325D5A475008742CA /* EnrollmentCollectionViewCell.swift */; };
+		F652FB4325D9080200BC6C7D /* CompleteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F652FB4225D9080200BC6C7D /* CompleteTableViewCell.swift */; };
+		F65ED0A925CEB8EE0027A597 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65ED0A825CEB8EE0027A597 /* SignUpViewModel.swift */; };
+		F65ED0B125CF0F6B0027A597 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65ED0B025CF0F6B0027A597 /* ForgotPasswordViewModel.swift */; };
+		F65ED0B525CF10ED0027A597 /* OTPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65ED0B425CF10ED0027A597 /* OTPViewModel.swift */; };
+		F65ED0CB25CF1C2C0027A597 /* ForgotOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65ED0CA25CF1C2C0027A597 /* ForgotOTPViewController.swift */; };
+		F65ED0D125CFA8CA0027A597 /* Extension+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65ED0D025CFA8CA0027A597 /* Extension+Storyboard.swift */; };
+		F65ED0D725CFC3B80027A597 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65ED0D625CFC3B80027A597 /* Extension+UIView.swift */; };
+		F65ED0E025CFDEAE0027A597 /* OngoingSessionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65ED0DF25CFDEAE0027A597 /* OngoingSessionCollectionViewCell.swift */; };
+		F65ED0E425CFDECC0027A597 /* OngoingSesssionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65ED0E325CFDECC0027A597 /* OngoingSesssionViewController.swift */; };
+		F66214F525CE997D005A5BA6 /* TodayScheduleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66214F425CE997D005A5BA6 /* TodayScheduleCollectionViewCell.swift */; };
+		F66214F825CEA4EF005A5BA6 /* YourHealerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66214F725CEA4EF005A5BA6 /* YourHealerCollectionViewCell.swift */; };
+		F6652AAD25D8DF0600BE0887 /* OngoingHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6652AAC25D8DF0600BE0887 /* OngoingHistoryTableViewCell.swift */; };
+		F665663825DA1D290087B628 /* NoNotificationFoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665663725DA1D290087B628 /* NoNotificationFoundViewController.swift */; };
+		F665663C25DA1D4C0087B628 /* NotificationFoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665663B25DA1D4B0087B628 /* NotificationFoundViewController.swift */; };
+		F665663F25DA1D790087B628 /* NoAppointmentFoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665663E25DA1D790087B628 /* NoAppointmentFoundViewController.swift */; };
+		F665664225DA580D0087B628 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665664125DA580C0087B628 /* NotificationViewController.swift */; };
+		F66C667125CD988D00E9C425 /* Extension+Document+Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C667025CD988D00E9C425 /* Extension+Document+Directory.swift */; };
+		F66C667425CE473E00E9C425 /* ServicesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C667325CE473D00E9C425 /* ServicesCollectionViewCell.swift */; };
+		F692E4F725D3927D00647715 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F692E4F625D3927D00647715 /* ServiceViewController.swift */; };
+		F692E4FB25D392CB00647715 /* ServicePageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F692E4FA25D392CB00647715 /* ServicePageCollectionViewCell.swift */; };
+		F694577825D45360001AE5B1 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694577725D45360001AE5B1 /* CalendarViewController.swift */; };
+		F6C6F20D25D2C260005479CC /* OngoingPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C6F20C25D2C260005479CC /* OngoingPageCollectionViewCell.swift */; };
+		F6C6F21125D2FB34005479CC /* ScheduleResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C6F21025D2FB34005479CC /* ScheduleResponseModel.swift */; };
+		F6D1B16525D294730083BE48 /* ProfileResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D1B16425D294720083BE48 /* ProfileResponseModel.swift */; };
+		F6E13EB125D851BE0046D5A3 /* AppointmentHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E13EB025D851BE0046D5A3 /* AppointmentHistoryViewController.swift */; };
+		F6EA721F25CD452A006447DF /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EA721E25CD452A006447DF /* UserDetailViewController.swift */; };
+		F6EA722325CD4CAA006447DF /* UserDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EA722225CD4CAA006447DF /* UserDetailViewModel.swift */; };
+		F6F0B37925CB3A52005FB1A4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F0B37825CB3A52005FB1A4 /* SignUpViewController.swift */; };
+		F6F0B37C25CB9247005FB1A4 /* SetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F0B37B25CB9247005FB1A4 /* SetPasswordViewController.swift */; };
+		F6F0B37F25CB968E005FB1A4 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F0B37E25CB968E005FB1A4 /* OTPViewController.swift */; };
+		F6F0B38525CBB3F7005FB1A4 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F0B38425CBB3F7005FB1A4 /* ForgotPasswordViewController.swift */; };
+		F6F0B38B25CBB820005FB1A4 /* AppointmentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F0B38A25CBB820005FB1A4 /* AppointmentDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DABD5783430612F18B3FCEF /* Pods-Aaranya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aaranya.debug.xcconfig"; path = "Target Support Files/Pods-Aaranya/Pods-Aaranya.debug.xcconfig"; sourceTree = "<group>"; };
+		7006F5DF81B63615C41E4423 /* Pods-Aaranya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aaranya.release.xcconfig"; path = "Target Support Files/Pods-Aaranya/Pods-Aaranya.release.xcconfig"; sourceTree = "<group>"; };
+		96EA808BECE1F482BF5F2E11 /* Pods_Aaranya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aaranya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6064C9625CB0689000D0880 /* Aaranya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aaranya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6064C9925CB0689000D0880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6064C9B25CB0689000D0880 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6064C9D25CB0689000D0880 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F6064CA025CB0689000D0880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6064CA225CB0690000D0880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6064CA525CB0690000D0880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6064CA725CB0690000D0880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6064CBC25CB0A6D000D0880 /* segoe-ui-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "segoe-ui-bold.ttf"; path = "Aaranya/Helper/New Group/segoe-ui-bold.ttf"; sourceTree = SOURCE_ROOT; };
+		F6064CBD25CB0A81000D0880 /* segoe-ui.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "segoe-ui.ttf"; sourceTree = "<group>"; };
+		F6064CBE25CB0B28000D0880 /* segoe-ui-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "segoe-ui-light.ttf"; sourceTree = "<group>"; };
+		F61BE4F025D1BA040024ECEE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F634358D25D3B89D0037BC71 /* SevicePaginationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevicePaginationCollectionViewCell.swift; sourceTree = "<group>"; };
+		F634359125D3DD070037BC71 /* AppointmentDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDetailTableViewCell.swift; sourceTree = "<group>"; };
+		F634359425D3F9B30037BC71 /* EnrollSuccessPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollSuccessPopUpViewController.swift; sourceTree = "<group>"; };
+		F638069925D0F50A006EC661 /* HappyFaceViewAllCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyFaceViewAllCollectionViewCell.swift; sourceTree = "<group>"; };
+		F63FF17825CFF09E009CF754 /* KnowHealerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowHealerViewController.swift; sourceTree = "<group>"; };
+		F63FF17C25CFF0C5009CF754 /* KnowHealerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowHealerCollectionViewCell.swift; sourceTree = "<group>"; };
+		F63FF18025D01D46009CF754 /* AvailableSchedualCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableSchedualCollectionViewCell.swift; sourceTree = "<group>"; };
+		F63FF18325D04278009CF754 /* HappyFaceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyFaceCollectionViewCell.swift; sourceTree = "<group>"; };
+		F645FE3825CBF23200B67117 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F645FE3C25CBFEDF00B67117 /* BookAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAppointmentViewController.swift; sourceTree = "<group>"; };
+		F645FE4025CC015400B67117 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F645FEB425CCEF5600B67117 /* ServerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerClass.swift; sourceTree = "<group>"; };
+		F645FED825CCF5CF00B67117 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F645FEDB25CCF78300B67117 /* Extension+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Validation.swift"; sourceTree = "<group>"; };
+		F645FEDE25CCF7F100B67117 /* Extension+OKAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+OKAlert.swift"; sourceTree = "<group>"; };
+		F645FEE125CCF8F200B67117 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		F64CC92125D1080200ADBF87 /* OnboardScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardScreenViewController.swift; sourceTree = "<group>"; };
+		F64CC92A25D15C4B00ADBF87 /* UserDetailResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailResponseModel.swift; sourceTree = "<group>"; };
+		F64CC92C25D15CB400ADBF87 /* ServiceResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceResponseModel.swift; sourceTree = "<group>"; };
+		F651DA1525D50FA3008742CA /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
+		F651DA1925D575BF008742CA /* nature.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = nature.mp4; sourceTree = "<group>"; };
+		F651DA2325D5A475008742CA /* EnrollmentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollmentCollectionViewCell.swift; sourceTree = "<group>"; };
+		F652FB4225D9080200BC6C7D /* CompleteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteTableViewCell.swift; sourceTree = "<group>"; };
+		F65ED0A825CEB8EE0027A597 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpViewModel.swift; path = ../SignUpViewModel.swift; sourceTree = "<group>"; };
+		F65ED0B025CF0F6B0027A597 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		F65ED0B425CF10ED0027A597 /* OTPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewModel.swift; sourceTree = "<group>"; };
+		F65ED0CA25CF1C2C0027A597 /* ForgotOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotOTPViewController.swift; sourceTree = "<group>"; };
+		F65ED0D025CFA8CA0027A597 /* Extension+Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Storyboard.swift"; sourceTree = "<group>"; };
+		F65ED0D625CFC3B80027A597 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Extension+UIView.swift"; path = "Aaranya/Helper/Extension+UIView.swift"; sourceTree = SOURCE_ROOT; };
+		F65ED0DF25CFDEAE0027A597 /* OngoingSessionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OngoingSessionCollectionViewCell.swift; sourceTree = "<group>"; };
+		F65ED0E325CFDECC0027A597 /* OngoingSesssionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OngoingSesssionViewController.swift; sourceTree = "<group>"; };
+		F66214F425CE997D005A5BA6 /* TodayScheduleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayScheduleCollectionViewCell.swift; sourceTree = "<group>"; };
+		F66214F725CEA4EF005A5BA6 /* YourHealerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourHealerCollectionViewCell.swift; sourceTree = "<group>"; };
+		F6652AAC25D8DF0600BE0887 /* OngoingHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OngoingHistoryTableViewCell.swift; path = Aaranya/Controller/HistoryVC/OngoingHistoryTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		F665663725DA1D290087B628 /* NoNotificationFoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNotificationFoundViewController.swift; sourceTree = "<group>"; };
+		F665663B25DA1D4B0087B628 /* NotificationFoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationFoundViewController.swift; sourceTree = "<group>"; };
+		F665663E25DA1D790087B628 /* NoAppointmentFoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoAppointmentFoundViewController.swift; sourceTree = "<group>"; };
+		F665664125DA580C0087B628 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		F66C667025CD988D00E9C425 /* Extension+Document+Directory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Document+Directory.swift"; sourceTree = "<group>"; };
+		F66C667325CE473D00E9C425 /* ServicesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesCollectionViewCell.swift; sourceTree = "<group>"; };
+		F692E4F625D3927D00647715 /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
+		F692E4FA25D392CB00647715 /* ServicePageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicePageCollectionViewCell.swift; sourceTree = "<group>"; };
+		F694577725D45360001AE5B1 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		F6C6F20C25D2C260005479CC /* OngoingPageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OngoingPageCollectionViewCell.swift; sourceTree = "<group>"; };
+		F6C6F21025D2FB34005479CC /* ScheduleResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleResponseModel.swift; sourceTree = "<group>"; };
+		F6D1B16425D294720083BE48 /* ProfileResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileResponseModel.swift; sourceTree = "<group>"; };
+		F6E13EB025D851BE0046D5A3 /* AppointmentHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentHistoryViewController.swift; sourceTree = "<group>"; };
+		F6EA721E25CD452A006447DF /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserDetailViewController.swift; path = Aaranya/Controller/AuthVC/UserDetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		F6EA722225CD4CAA006447DF /* UserDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewModel.swift; sourceTree = "<group>"; };
+		F6F0B37825CB3A52005FB1A4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F6F0B37B25CB9247005FB1A4 /* SetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPasswordViewController.swift; sourceTree = "<group>"; };
+		F6F0B37E25CB968E005FB1A4 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		F6F0B38425CBB3F7005FB1A4 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		F6F0B38A25CBB820005FB1A4 /* AppointmentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6064C9325CB0689000D0880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D132E2A43110B622D1CAC84 /* Pods_Aaranya.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36F7D4E778AA0107F28DF918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96EA808BECE1F482BF5F2E11 /* Pods_Aaranya.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCA37CEBC78B0E014D96691B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DABD5783430612F18B3FCEF /* Pods-Aaranya.debug.xcconfig */,
+				7006F5DF81B63615C41E4423 /* Pods-Aaranya.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F6064C8D25CB0689000D0880 = {
+			isa = PBXGroup;
+			children = (
+				F6064C9825CB0689000D0880 /* Aaranya */,
+				F6064C9725CB0689000D0880 /* Products */,
+				BCA37CEBC78B0E014D96691B /* Pods */,
+				36F7D4E778AA0107F28DF918 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6064C9725CB0689000D0880 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6064C9625CB0689000D0880 /* Aaranya.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6064C9825CB0689000D0880 /* Aaranya */ = {
+			isa = PBXGroup;
+			children = (
+				F645FEB325CCEF2C00B67117 /* Service */,
+				F6064CB525CB0732000D0880 /* Resources */,
+				F6064CB025CB06CF000D0880 /* Helper */,
+				F6064CB425CB0725000D0880 /* Model */,
+				F6064CB225CB06FE000D0880 /* ViewModel */,
+				F6064CB325CB071F000D0880 /* View */,
+				F6064CB125CB06EA000D0880 /* Controller */,
+				F6064CA725CB0690000D0880 /* Info.plist */,
+				F6064CA225CB0690000D0880 /* Assets.xcassets */,
+			);
+			path = Aaranya;
+			sourceTree = "<group>";
+		};
+		F6064CB025CB06CF000D0880 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F651DA1925D575BF008742CA /* nature.mp4 */,
+				F65ED0D525CFC38D0027A597 /* UIView */,
+				F66C666F25CD984200E9C425 /* DocumentDirectory */,
+				F6064CBB25CB0A4E000D0880 /* Fonts */,
+				F65ED0D325CFC3460027A597 /* Validation */,
+				F65ED0D425CFC3680027A597 /* Alert */,
+				F65ED0D025CFA8CA0027A597 /* Extension+Storyboard.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F6064CB125CB06EA000D0880 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6380B2D25E7E86000740B5E /* SlideMenu */,
+				F665663625DA1CF80087B628 /* NotificationVC */,
+				F63FF17625CFEFF4009CF754 /* KnownHealer */,
+				F65ED0DE25CFDE870027A597 /* OngoingVC */,
+				F6F0B38725CBB7E3005FB1A4 /* AuthVC */,
+				F645FE3725CBF1F900B67117 /* AppointmentDetailVC */,
+				F645FE3B25CBFEC100B67117 /* ProfileVC */,
+				F645FE3F25CC012000B67117 /* BookAppointmentVC */,
+				F645FE4325CC016200B67117 /* HomeVC */,
+				F65ED0BC25CF16F00027A597 /* ForgotOTPVC */,
+				F64CC92425D1080900ADBF87 /* OnboardVC */,
+				F692E4F925D3928E00647715 /* ServiceVC */,
+				F6F258B225D8524C001A941F /* HistoryVC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F6064CB225CB06FE000D0880 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F651DA1425D50F55008742CA /* ScheduleVM */,
+				F645FEB125CCEEDC00B67117 /* SignUpVM */,
+				F65ED0AD25CF0AE80027A597 /* UserViewModel */,
+				F65ED0CD25CF21660027A597 /* ForgotPasswordVM */,
+				F65ED0B725CF10FB0027A597 /* OTPVM */,
+				F6D1B13925D1BA710083BE48 /* HomeVM */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F6064CB325CB071F000D0880 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6064CB925CB0799000D0880 /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6064CB425CB0725000D0880 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F64CC92925D15C4500ADBF87 /* UserDetailResponseModel */,
+				F64CC92F25D15CBD00ADBF87 /* HomeResponseModel */,
+				F6D1B16725D2947D0083BE48 /* ProfileResponseModel */,
+				F6C6F21325D2FB99005479CC /* ScheduleResponseModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6064CB525CB0732000D0880 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6064C9925CB0689000D0880 /* AppDelegate.swift */,
+				F6064C9B25CB0689000D0880 /* SceneDelegate.swift */,
+				F645FED825CCF5CF00B67117 /* Constant.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F6064CB925CB0799000D0880 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F6064C9F25CB0689000D0880 /* Main.storyboard */,
+				F6064CA425CB0690000D0880 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		F6064CBB25CB0A4E000D0880 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F6064CBD25CB0A81000D0880 /* segoe-ui.ttf */,
+				F6064CBC25CB0A6D000D0880 /* segoe-ui-bold.ttf */,
+				F6064CBE25CB0B28000D0880 /* segoe-ui-light.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F61BE4EE25D1B3D90024ECEE /* ServiceView */ = {
+			isa = PBXGroup;
+			children = (
+				F66C667325CE473D00E9C425 /* ServicesCollectionViewCell.swift */,
+			);
+			path = ServiceView;
+			sourceTree = "<group>";
+		};
+		F634359725D3F9BC0037BC71 /* EnrollSccessPopUpVC */ = {
+			isa = PBXGroup;
+			children = (
+				F634359425D3F9B30037BC71 /* EnrollSuccessPopUpViewController.swift */,
+			);
+			path = EnrollSccessPopUpVC;
+			sourceTree = "<group>";
+		};
+		F638069325D0E1F6006EC661 /* AvailableSchedualView */ = {
+			isa = PBXGroup;
+			children = (
+				F63FF18025D01D46009CF754 /* AvailableSchedualCollectionViewCell.swift */,
+			);
+			path = AvailableSchedualView;
+			sourceTree = "<group>";
+		};
+		F6380B2D25E7E86000740B5E /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SlideMenu;
+			sourceTree = "<group>";
+		};
+		F63FF17625CFEFF4009CF754 /* KnownHealer */ = {
+			isa = PBXGroup;
+			children = (
+				F638069925D0F50A006EC661 /* HappyFaceViewAllCollectionViewCell.swift */,
+				F63FF17825CFF09E009CF754 /* KnowHealerViewController.swift */,
+				F63FF17C25CFF0C5009CF754 /* KnowHealerCollectionViewCell.swift */,
+			);
+			path = KnownHealer;
+			sourceTree = "<group>";
+		};
+		F645FE3725CBF1F900B67117 /* AppointmentDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				F6F0B38A25CBB820005FB1A4 /* AppointmentDetailViewController.swift */,
+				F634359125D3DD070037BC71 /* AppointmentDetailTableViewCell.swift */,
+				F665663E25DA1D790087B628 /* NoAppointmentFoundViewController.swift */,
+			);
+			path = AppointmentDetailVC;
+			sourceTree = "<group>";
+		};
+		F645FE3B25CBFEC100B67117 /* ProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				F645FE3825CBF23200B67117 /* ProfileViewController.swift */,
+			);
+			path = ProfileVC;
+			sourceTree = "<group>";
+		};
+		F645FE3F25CC012000B67117 /* BookAppointmentVC */ = {
+			isa = PBXGroup;
+			children = (
+				F645FE3C25CBFEDF00B67117 /* BookAppointmentViewController.swift */,
+			);
+			path = BookAppointmentVC;
+			sourceTree = "<group>";
+		};
+		F645FE4325CC016200B67117 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				F651DA2225D5A459008742CA /* EnrollmentView */,
+				F64CC93625D1B17600ADBF87 /* YourHealerView */,
+				F64CC93425D192F500ADBF87 /* TodayScheduleView */,
+				F64CC93225D17F3D00ADBF87 /* OngoingSessionView */,
+				F61BE4EE25D1B3D90024ECEE /* ServiceView */,
+				F645FE4025CC015400B67117 /* HomeViewController.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		F645FEB125CCEEDC00B67117 /* SignUpVM */ = {
+			isa = PBXGroup;
+			children = (
+				F65ED0A825CEB8EE0027A597 /* SignUpViewModel.swift */,
+			);
+			path = SignUpVM;
+			sourceTree = "<group>";
+		};
+		F645FEB325CCEF2C00B67117 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F645FEB425CCEF5600B67117 /* ServerClass.swift */,
+				F645FEE125CCF8F200B67117 /* Internet.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F64CC92425D1080900ADBF87 /* OnboardVC */ = {
+			isa = PBXGroup;
+			children = (
+				F64CC92125D1080200ADBF87 /* OnboardScreenViewController.swift */,
+			);
+			path = OnboardVC;
+			sourceTree = "<group>";
+		};
+		F64CC92925D15C4500ADBF87 /* UserDetailResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+				F64CC92A25D15C4B00ADBF87 /* UserDetailResponseModel.swift */,
+			);
+			path = UserDetailResponseModel;
+			sourceTree = "<group>";
+		};
+		F64CC92F25D15CBD00ADBF87 /* HomeResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+				F64CC92C25D15CB400ADBF87 /* ServiceResponseModel.swift */,
+			);
+			path = HomeResponseModel;
+			sourceTree = "<group>";
+		};
+		F64CC93225D17F3D00ADBF87 /* OngoingSessionView */ = {
+			isa = PBXGroup;
+			children = (
+				F65ED0DF25CFDEAE0027A597 /* OngoingSessionCollectionViewCell.swift */,
+			);
+			path = OngoingSessionView;
+			sourceTree = "<group>";
+		};
+		F64CC93425D192F500ADBF87 /* TodayScheduleView */ = {
+			isa = PBXGroup;
+			children = (
+				F66214F425CE997D005A5BA6 /* TodayScheduleCollectionViewCell.swift */,
+			);
+			path = TodayScheduleView;
+			sourceTree = "<group>";
+		};
+		F64CC93625D1B17600ADBF87 /* YourHealerView */ = {
+			isa = PBXGroup;
+			children = (
+				F66214F725CEA4EF005A5BA6 /* YourHealerCollectionViewCell.swift */,
+			);
+			path = YourHealerView;
+			sourceTree = "<group>";
+		};
+		F651DA1425D50F55008742CA /* ScheduleVM */ = {
+			isa = PBXGroup;
+			children = (
+				F651DA1525D50FA3008742CA /* ScheduleViewModel.swift */,
+			);
+			path = ScheduleVM;
+			sourceTree = "<group>";
+		};
+		F651DA2225D5A459008742CA /* EnrollmentView */ = {
+			isa = PBXGroup;
+			children = (
+				F651DA2325D5A475008742CA /* EnrollmentCollectionViewCell.swift */,
+			);
+			path = EnrollmentView;
+			sourceTree = "<group>";
+		};
+		F65ED0A225CEB6890027A597 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				F6064C9D25CB0689000D0880 /* LoginViewController.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		F65ED0A425CEB6AE0027A597 /* SignUpVC */ = {
+			isa = PBXGroup;
+			children = (
+				F6F0B37825CB3A52005FB1A4 /* SignUpViewController.swift */,
+			);
+			path = SignUpVC;
+			sourceTree = "<group>";
+		};
+		F65ED0A525CEB6C00027A597 /* OTPVC */ = {
+			isa = PBXGroup;
+			children = (
+				F6F0B37E25CB968E005FB1A4 /* OTPViewController.swift */,
+			);
+			path = OTPVC;
+			sourceTree = "<group>";
+		};
+		F65ED0A625CEB6D30027A597 /* UserDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				F6EA721E25CD452A006447DF /* UserDetailViewController.swift */,
+			);
+			path = UserDetailVC;
+			sourceTree = "<group>";
+		};
+		F65ED0AD25CF0AE80027A597 /* UserViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F6EA722225CD4CAA006447DF /* UserDetailViewModel.swift */,
+			);
+			path = UserViewModel;
+			sourceTree = "<group>";
+		};
+		F65ED0AE25CF0C410027A597 /* ForgotPasswordVC */ = {
+			isa = PBXGroup;
+			children = (
+				F6F0B38425CBB3F7005FB1A4 /* ForgotPasswordViewController.swift */,
+			);
+			path = ForgotPasswordVC;
+			sourceTree = "<group>";
+		};
+		F65ED0B725CF10FB0027A597 /* OTPVM */ = {
+			isa = PBXGroup;
+			children = (
+				F65ED0B425CF10ED0027A597 /* OTPViewModel.swift */,
+			);
+			path = OTPVM;
+			sourceTree = "<group>";
+		};
+		F65ED0BC25CF16F00027A597 /* ForgotOTPVC */ = {
+			isa = PBXGroup;
+			children = (
+				F65ED0CA25CF1C2C0027A597 /* ForgotOTPViewController.swift */,
+			);
+			path = ForgotOTPVC;
+			sourceTree = "<group>";
+		};
+		F65ED0CD25CF21660027A597 /* ForgotPasswordVM */ = {
+			isa = PBXGroup;
+			children = (
+				F65ED0B025CF0F6B0027A597 /* ForgotPasswordViewModel.swift */,
+			);
+			path = ForgotPasswordVM;
+			sourceTree = "<group>";
+		};
+		F65ED0CE25CF21900027A597 /* SetPasswordVC */ = {
+			isa = PBXGroup;
+			children = (
+				F6F0B37B25CB9247005FB1A4 /* SetPasswordViewController.swift */,
+			);
+			path = SetPasswordVC;
+			sourceTree = "<group>";
+		};
+		F65ED0D325CFC3460027A597 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				F645FEDB25CCF78300B67117 /* Extension+Validation.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		F65ED0D425CFC3680027A597 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				F645FEDE25CCF7F100B67117 /* Extension+OKAlert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		F65ED0D525CFC38D0027A597 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				F65ED0D625CFC3B80027A597 /* Extension+UIView.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		F65ED0DE25CFDE870027A597 /* OngoingVC */ = {
+			isa = PBXGroup;
+			children = (
+				F65ED0E325CFDECC0027A597 /* OngoingSesssionViewController.swift */,
+				F63FF18325D04278009CF754 /* HappyFaceCollectionViewCell.swift */,
+				F638069325D0E1F6006EC661 /* AvailableSchedualView */,
+				F6C6F20C25D2C260005479CC /* OngoingPageCollectionViewCell.swift */,
+				F634359725D3F9BC0037BC71 /* EnrollSccessPopUpVC */,
+				F694577725D45360001AE5B1 /* CalendarViewController.swift */,
+			);
+			path = OngoingVC;
+			sourceTree = "<group>";
+		};
+		F665663625DA1CF80087B628 /* NotificationVC */ = {
+			isa = PBXGroup;
+			children = (
+				F665663725DA1D290087B628 /* NoNotificationFoundViewController.swift */,
+				F665663B25DA1D4B0087B628 /* NotificationFoundViewController.swift */,
+				F665664125DA580C0087B628 /* NotificationViewController.swift */,
+			);
+			path = NotificationVC;
+			sourceTree = "<group>";
+		};
+		F66C666F25CD984200E9C425 /* DocumentDirectory */ = {
+			isa = PBXGroup;
+			children = (
+				F66C667025CD988D00E9C425 /* Extension+Document+Directory.swift */,
+			);
+			path = DocumentDirectory;
+			sourceTree = "<group>";
+		};
+		F692E4F925D3928E00647715 /* ServiceVC */ = {
+			isa = PBXGroup;
+			children = (
+				F692E4F625D3927D00647715 /* ServiceViewController.swift */,
+				F692E4FA25D392CB00647715 /* ServicePageCollectionViewCell.swift */,
+				F634358D25D3B89D0037BC71 /* SevicePaginationCollectionViewCell.swift */,
+			);
+			path = ServiceVC;
+			sourceTree = "<group>";
+		};
+		F6C6F21325D2FB99005479CC /* ScheduleResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+				F6C6F21025D2FB34005479CC /* ScheduleResponseModel.swift */,
+			);
+			path = ScheduleResponseModel;
+			sourceTree = "<group>";
+		};
+		F6D1B13925D1BA710083BE48 /* HomeVM */ = {
+			isa = PBXGroup;
+			children = (
+				F61BE4F025D1BA040024ECEE /* HomeViewModel.swift */,
+			);
+			path = HomeVM;
+			sourceTree = "<group>";
+		};
+		F6D1B16725D2947D0083BE48 /* ProfileResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+				F6D1B16425D294720083BE48 /* ProfileResponseModel.swift */,
+			);
+			path = ProfileResponseModel;
+			sourceTree = "<group>";
+		};
+		F6F0B38725CBB7E3005FB1A4 /* AuthVC */ = {
+			isa = PBXGroup;
+			children = (
+				F65ED0A225CEB6890027A597 /* LoginVC */,
+				F65ED0A425CEB6AE0027A597 /* SignUpVC */,
+				F65ED0CE25CF21900027A597 /* SetPasswordVC */,
+				F65ED0A525CEB6C00027A597 /* OTPVC */,
+				F65ED0A625CEB6D30027A597 /* UserDetailVC */,
+				F65ED0AE25CF0C410027A597 /* ForgotPasswordVC */,
+			);
+			path = AuthVC;
+			sourceTree = "<group>";
+		};
+		F6F258B225D8524C001A941F /* HistoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				F6652AAC25D8DF0600BE0887 /* OngoingHistoryTableViewCell.swift */,
+				F6E13EB025D851BE0046D5A3 /* AppointmentHistoryViewController.swift */,
+				F652FB4225D9080200BC6C7D /* CompleteTableViewCell.swift */,
+			);
+			path = HistoryVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6064C9525CB0689000D0880 /* Aaranya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6064CAA25CB0690000D0880 /* Build configuration list for PBXNativeTarget "Aaranya" */;
+			buildPhases = (
+				0B3D79DCF77B5AD373B0E0BE /* [CP] Check Pods Manifest.lock */,
+				F6064C9225CB0689000D0880 /* Sources */,
+				F6064C9325CB0689000D0880 /* Frameworks */,
+				F6064C9425CB0689000D0880 /* Resources */,
+				328F787B42485BF9BEBE768A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aaranya;
+			productName = Aaranya;
+			productReference = F6064C9625CB0689000D0880 /* Aaranya.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6064C8E25CB0689000D0880 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F6064C9525CB0689000D0880 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = F6064C9125CB0689000D0880 /* Build configuration list for PBXProject "Aaranya" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6064C8D25CB0689000D0880;
+			productRefGroup = F6064C9725CB0689000D0880 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6064C9525CB0689000D0880 /* Aaranya */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6064C9425CB0689000D0880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F651DA1A25D575C0008742CA /* nature.mp4 in Resources */,
+				F6064CA625CB0690000D0880 /* LaunchScreen.storyboard in Resources */,
+				F6064CA325CB0690000D0880 /* Assets.xcassets in Resources */,
+				F6064CA125CB0689000D0880 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B3D79DCF77B5AD373B0E0BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aaranya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		328F787B42485BF9BEBE768A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aaranya/Pods-Aaranya-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aaranya/Pods-Aaranya-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Aaranya/Pods-Aaranya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6064C9225CB0689000D0880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F0B38525CBB3F7005FB1A4 /* ForgotPasswordViewController.swift in Sources */,
+				F63FF17925CFF09E009CF754 /* KnowHealerViewController.swift in Sources */,
+				F652FB4325D9080200BC6C7D /* CompleteTableViewCell.swift in Sources */,
+				F6F0B38B25CBB820005FB1A4 /* AppointmentDetailViewController.swift in Sources */,
+				F645FEDF25CCF7F100B67117 /* Extension+OKAlert.swift in Sources */,
+				F645FEB525CCEF5600B67117 /* ServerClass.swift in Sources */,
+				F645FEDC25CCF78400B67117 /* Extension+Validation.swift in Sources */,
+				F6D1B16525D294730083BE48 /* ProfileResponseModel.swift in Sources */,
+				F6652AAD25D8DF0600BE0887 /* OngoingHistoryTableViewCell.swift in Sources */,
+				F645FED925CCF5CF00B67117 /* Constant.swift in Sources */,
+				F665664225DA580D0087B628 /* NotificationViewController.swift in Sources */,
+				F638069A25D0F50A006EC661 /* HappyFaceViewAllCollectionViewCell.swift in Sources */,
+				F694577825D45360001AE5B1 /* CalendarViewController.swift in Sources */,
+				F6F0B37F25CB968E005FB1A4 /* OTPViewController.swift in Sources */,
+				F65ED0D125CFA8CA0027A597 /* Extension+Storyboard.swift in Sources */,
+				F63FF17D25CFF0C5009CF754 /* KnowHealerCollectionViewCell.swift in Sources */,
+				F65ED0A925CEB8EE0027A597 /* SignUpViewModel.swift in Sources */,
+				F6064C9E25CB0689000D0880 /* LoginViewController.swift in Sources */,
+				F6E13EB125D851BE0046D5A3 /* AppointmentHistoryViewController.swift in Sources */,
+				F6EA722325CD4CAA006447DF /* UserDetailViewModel.swift in Sources */,
+				F665663825DA1D290087B628 /* NoNotificationFoundViewController.swift in Sources */,
+				F65ED0E425CFDECC0027A597 /* OngoingSesssionViewController.swift in Sources */,
+				F6C6F21125D2FB34005479CC /* ScheduleResponseModel.swift in Sources */,
+				F634359525D3F9B40037BC71 /* EnrollSuccessPopUpViewController.swift in Sources */,
+				F66214F825CEA4EF005A5BA6 /* YourHealerCollectionViewCell.swift in Sources */,
+				F66C667125CD988D00E9C425 /* Extension+Document+Directory.swift in Sources */,
+				F65ED0B125CF0F6B0027A597 /* ForgotPasswordViewModel.swift in Sources */,
+				F66C667425CE473E00E9C425 /* ServicesCollectionViewCell.swift in Sources */,
+				F692E4FB25D392CB00647715 /* ServicePageCollectionViewCell.swift in Sources */,
+				F63FF18425D04279009CF754 /* HappyFaceCollectionViewCell.swift in Sources */,
+				F6F0B37C25CB9247005FB1A4 /* SetPasswordViewController.swift in Sources */,
+				F692E4F725D3927D00647715 /* ServiceViewController.swift in Sources */,
+				F645FEE225CCF8F200B67117 /* Internet.swift in Sources */,
+				F6C6F20D25D2C260005479CC /* OngoingPageCollectionViewCell.swift in Sources */,
+				F634358E25D3B89D0037BC71 /* SevicePaginationCollectionViewCell.swift in Sources */,
+				F64CC92225D1080200ADBF87 /* OnboardScreenViewController.swift in Sources */,
+				F645FE3925CBF23200B67117 /* ProfileViewController.swift in Sources */,
+				F64CC92D25D15CB400ADBF87 /* ServiceResponseModel.swift in Sources */,
+				F6EA721F25CD452A006447DF /* UserDetailViewController.swift in Sources */,
+				F665663C25DA1D4C0087B628 /* NotificationFoundViewController.swift in Sources */,
+				F6064C9A25CB0689000D0880 /* AppDelegate.swift in Sources */,
+				F65ED0B525CF10ED0027A597 /* OTPViewModel.swift in Sources */,
+				F63FF18125D01D46009CF754 /* AvailableSchedualCollectionViewCell.swift in Sources */,
+				F6F0B37925CB3A52005FB1A4 /* SignUpViewController.swift in Sources */,
+				F634359225D3DD070037BC71 /* AppointmentDetailTableViewCell.swift in Sources */,
+				F6064C9C25CB0689000D0880 /* SceneDelegate.swift in Sources */,
+				F65ED0CB25CF1C2C0027A597 /* ForgotOTPViewController.swift in Sources */,
+				F665663F25DA1D790087B628 /* NoAppointmentFoundViewController.swift in Sources */,
+				F65ED0D725CFC3B80027A597 /* Extension+UIView.swift in Sources */,
+				F61BE4F125D1BA040024ECEE /* HomeViewModel.swift in Sources */,
+				F651DA1625D50FA3008742CA /* ScheduleViewModel.swift in Sources */,
+				F651DA2425D5A475008742CA /* EnrollmentCollectionViewCell.swift in Sources */,
+				F65ED0E025CFDEAE0027A597 /* OngoingSessionCollectionViewCell.swift in Sources */,
+				F645FE4125CC015400B67117 /* HomeViewController.swift in Sources */,
+				F66214F525CE997D005A5BA6 /* TodayScheduleCollectionViewCell.swift in Sources */,
+				F645FE3D25CBFEDF00B67117 /* BookAppointmentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6064C9F25CB0689000D0880 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6064CA025CB0689000D0880 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6064CA425CB0690000D0880 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6064CA525CB0690000D0880 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6064CA825CB0690000D0880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6064CA925CB0690000D0880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6064CAB25CB0690000D0880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DABD5783430612F18B3FCEF /* Pods-Aaranya.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5HUQFY4KP;
+				INFOPLIST_FILE = Aaranya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aaranya-wellness.Aaranya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6064CAC25CB0690000D0880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7006F5DF81B63615C41E4423 /* Pods-Aaranya.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6HWM69XLS;
+				INFOPLIST_FILE = Aaranya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aaranya-wellness.Aaranya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6064C9125CB0689000D0880 /* Build configuration list for PBXProject "Aaranya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6064CA825CB0690000D0880 /* Debug */,
+				F6064CA925CB0690000D0880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6064CAA25CB0690000D0880 /* Build configuration list for PBXNativeTarget "Aaranya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6064CAB25CB0690000D0880 /* Debug */,
+				F6064CAC25CB0690000D0880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6064C8E25CB0689000D0880 /* Project object */;
+}
