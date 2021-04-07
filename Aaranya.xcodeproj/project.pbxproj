@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5D132E2A43110B622D1CAC84 /* Pods_Aaranya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96EA808BECE1F482BF5F2E11 /* Pods_Aaranya.framework */; };
+		79242FB225FCD6EB003BEA6B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79242FB025FCD6EB003BEA6B /* SWRevealViewController.m */; };
+		79242FB525FCD781003BEA6B /* SlideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79242FB425FCD781003BEA6B /* SlideMenuVC.swift */; };
+		79242FC525FD216E003BEA6B /* SlideTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79242FC425FD216E003BEA6B /* SlideTableViewCell.swift */; };
 		F6064C9A25CB0689000D0880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6064C9925CB0689000D0880 /* AppDelegate.swift */; };
 		F6064C9C25CB0689000D0880 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6064C9B25CB0689000D0880 /* SceneDelegate.swift */; };
 		F6064C9E25CB0689000D0880 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6064C9D25CB0689000D0880 /* LoginViewController.swift */; };
@@ -73,6 +76,11 @@
 /* Begin PBXFileReference section */
 		2DABD5783430612F18B3FCEF /* Pods-Aaranya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aaranya.debug.xcconfig"; path = "Target Support Files/Pods-Aaranya/Pods-Aaranya.debug.xcconfig"; sourceTree = "<group>"; };
 		7006F5DF81B63615C41E4423 /* Pods-Aaranya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aaranya.release.xcconfig"; path = "Target Support Files/Pods-Aaranya/Pods-Aaranya.release.xcconfig"; sourceTree = "<group>"; };
+		79242FAF25FCD6EA003BEA6B /* Aaranya-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aaranya-Bridging-Header.h"; sourceTree = "<group>"; };
+		79242FB025FCD6EB003BEA6B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		79242FB125FCD6EB003BEA6B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		79242FB425FCD781003BEA6B /* SlideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuVC.swift; sourceTree = "<group>"; };
+		79242FC425FD216E003BEA6B /* SlideTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideTableViewCell.swift; sourceTree = "<group>"; };
 		96EA808BECE1F482BF5F2E11 /* Pods_Aaranya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aaranya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6064C9625CB0689000D0880 /* Aaranya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aaranya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6064C9925CB0689000D0880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -162,6 +170,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		79242FAE25FCD6B9003BEA6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79242FB125FCD6EB003BEA6B /* SWRevealViewController.h */,
+				79242FB025FCD6EB003BEA6B /* SWRevealViewController.m */,
+				79242FAF25FCD6EA003BEA6B /* Aaranya-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		BCA37CEBC78B0E014D96691B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +210,7 @@
 		F6064C9825CB0689000D0880 /* Aaranya */ = {
 			isa = PBXGroup;
 			children = (
+				79242FAE25FCD6B9003BEA6B /* Supporting Files */,
 				F645FEB325CCEF2C00B67117 /* Service */,
 				F6064CB525CB0732000D0880 /* Resources */,
 				F6064CB025CB06CF000D0880 /* Helper */,
@@ -209,7 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				F651DA1925D575BF008742CA /* nature.mp4 */,
-				F65ED0D525CFC38D0027A597 /* UIView */,
+				F65ED0D625CFC3B80027A597 /* Extension+UIView.swift */,
 				F66C666F25CD984200E9C425 /* DocumentDirectory */,
 				F6064CBB25CB0A4E000D0880 /* Fonts */,
 				F65ED0D325CFC3460027A597 /* Validation */,
@@ -222,7 +241,6 @@
 		F6064CB125CB06EA000D0880 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F6380B2D25E7E86000740B5E /* SlideMenu */,
 				F665663625DA1CF80087B628 /* NotificationVC */,
 				F63FF17625CFEFF4009CF754 /* KnownHealer */,
 				F65ED0DE25CFDE870027A597 /* OngoingVC */,
@@ -324,13 +342,6 @@
 			path = AvailableSchedualView;
 			sourceTree = "<group>";
 		};
-		F6380B2D25E7E86000740B5E /* SlideMenu */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SlideMenu;
-			sourceTree = "<group>";
-		};
 		F63FF17625CFEFF4009CF754 /* KnownHealer */ = {
 			isa = PBXGroup;
 			children = (
@@ -370,12 +381,14 @@
 		F645FE4325CC016200B67117 /* HomeVC */ = {
 			isa = PBXGroup;
 			children = (
+				79242FB425FCD781003BEA6B /* SlideMenuVC.swift */,
 				F651DA2225D5A459008742CA /* EnrollmentView */,
 				F64CC93625D1B17600ADBF87 /* YourHealerView */,
 				F64CC93425D192F500ADBF87 /* TodayScheduleView */,
 				F64CC93225D17F3D00ADBF87 /* OngoingSessionView */,
 				F61BE4EE25D1B3D90024ECEE /* ServiceView */,
 				F645FE4025CC015400B67117 /* HomeViewController.swift */,
+				79242FC425FD216E003BEA6B /* SlideTableViewCell.swift */,
 			);
 			path = HomeVC;
 			sourceTree = "<group>";
@@ -557,14 +570,6 @@
 			path = Alert;
 			sourceTree = "<group>";
 		};
-		F65ED0D525CFC38D0027A597 /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-				F65ED0D625CFC3B80027A597 /* Extension+UIView.swift */,
-			);
-			path = UIView;
-			sourceTree = "<group>";
-		};
 		F65ED0DE25CFDE870027A597 /* OngoingVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -686,6 +691,7 @@
 				TargetAttributes = {
 					F6064C9525CB0689000D0880 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -788,8 +794,10 @@
 				F6064C9E25CB0689000D0880 /* LoginViewController.swift in Sources */,
 				F6E13EB125D851BE0046D5A3 /* AppointmentHistoryViewController.swift in Sources */,
 				F6EA722325CD4CAA006447DF /* UserDetailViewModel.swift in Sources */,
+				79242FB225FCD6EB003BEA6B /* SWRevealViewController.m in Sources */,
 				F665663825DA1D290087B628 /* NoNotificationFoundViewController.swift in Sources */,
 				F65ED0E425CFDECC0027A597 /* OngoingSesssionViewController.swift in Sources */,
+				79242FC525FD216E003BEA6B /* SlideTableViewCell.swift in Sources */,
 				F6C6F21125D2FB34005479CC /* ScheduleResponseModel.swift in Sources */,
 				F634359525D3F9B40037BC71 /* EnrollSuccessPopUpViewController.swift in Sources */,
 				F66214F825CEA4EF005A5BA6 /* YourHealerCollectionViewCell.swift in Sources */,
@@ -800,6 +808,7 @@
 				F63FF18425D04279009CF754 /* HappyFaceCollectionViewCell.swift in Sources */,
 				F6F0B37C25CB9247005FB1A4 /* SetPasswordViewController.swift in Sources */,
 				F692E4F725D3927D00647715 /* ServiceViewController.swift in Sources */,
+				79242FB525FCD781003BEA6B /* SlideMenuVC.swift in Sources */,
 				F645FEE225CCF8F200B67117 /* Internet.swift in Sources */,
 				F6C6F20D25D2C260005479CC /* OngoingPageCollectionViewCell.swift in Sources */,
 				F634358E25D3B89D0037BC71 /* SevicePaginationCollectionViewCell.swift in Sources */,
@@ -971,6 +980,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B5HUQFY4KP;
 				INFOPLIST_FILE = Aaranya/Info.plist;
@@ -980,6 +990,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aaranya-wellness.Aaranya";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Aaranya/Supporting Files/Aaranya-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -991,6 +1003,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y6HWM69XLS;
 				INFOPLIST_FILE = Aaranya/Info.plist;
@@ -1000,6 +1013,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aaranya-wellness.Aaranya";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Aaranya/Supporting Files/Aaranya-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

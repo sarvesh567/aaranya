@@ -64,7 +64,9 @@ class LoginViewController: UIViewController {
                 UserDefaults.standard.setValue(otp_status, forKey: USER_DEFAULTS_KEYS.OTP_STATUS)
                 UserDefaults.standard.setValue(first_name, forKey: USER_DEFAULTS_KEYS.FIRST_NAME)
                 UserDefaults.standard.setValue(last_name, forKey: USER_DEFAULTS_KEYS.LAST_NAME)
-                let homeVC = self.storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+               
+                let homeVC = self.storyboard?.instantiateViewController(withIdentifier: "SWRevealViewController") as! SWRevealViewController
+               
                 self.present(homeVC, animated: true, completion: nil)
                 
                 

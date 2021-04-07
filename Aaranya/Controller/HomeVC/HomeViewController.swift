@@ -10,6 +10,7 @@ import Kingfisher
 
 class HomeViewController: UIViewController {
     //MARK:- IBOutlet for collectionView
+    @IBOutlet weak var menuButton: UIButton!
     @IBOutlet weak var collectionView1: UICollectionView!
     @IBOutlet weak var collectionView2: UICollectionView!
     @IBOutlet weak var collectionView3: UICollectionView!
@@ -25,6 +26,7 @@ class HomeViewController: UIViewController {
     let first_name = UserDefaults.standard.value(forKey: USER_DEFAULTS_KEYS.FIRST_NAME)
     let last_name = UserDefaults.standard.value(forKey: USER_DEFAULTS_KEYS.LAST_NAME)
     
+    @IBOutlet weak var calenderButton: UIButton!
     var serviceResponseModelArray = [ServiceResponseModel]()
     var ongoingSessionResponseArray = [OngoingSessionResponseModel]()
     var todayScheduleResponseModelArray = [TodayScheduleResponseModel]()
@@ -36,9 +38,16 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         nameLabel.text = "Good Morning \(first_name!) \(last_name!)"
         
-        homeAPI()
+        //homeAPI()
+
+        menuButton.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
+        self.view.addGestureRecognizer((self.revealViewController()?.panGestureRecognizer())!)
+        self.view.addGestureRecognizer((self.revealViewController()?.tapGestureRecognizer())!)
+        
         
     }
+    
+   
    
 }
 

@@ -25,4 +25,10 @@ extension UIStoryboard {
         
     }
     
+    
+    class func profileViewController() -> ProfileViewController {
+        return mainStoryBoard().instantiateViewController(withIdentifier: "ProfileViewController") as! ProfileViewController
+        
+    }
+    
 }

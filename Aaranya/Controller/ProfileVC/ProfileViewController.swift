@@ -21,13 +21,13 @@ class ProfileViewController: UIViewController {
         
         
         
-        self.homeAPI()
-    }
-    
-    
-    
+//        self.homeAPI()
+//    }
+//
+//
+//
 }
-
+}
 
 extension ProfileViewController{
     
